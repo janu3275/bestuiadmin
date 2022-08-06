@@ -1,0 +1,112 @@
+.toprow {
+  display: flex;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.datainfo {
+  width: 25%;
+}
+
+.datarows {
+  display: flex;
+  width: 100%;
+}
+
+.selectedrow {
+  display: flex;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.41);
+}
+.table {
+  width: 100%;
+}
+.mainpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.title {
+  width: 20%;
+  align-self: center;
+  text-align: start;
+  overflow: hidden;
+  margin: 0% 5%;
+}
+.checkbox {
+  margin: 0 5% !important;
+}
+.actionbtne {
+  margin: 0.8rem 1rem 0.8rem 0;
+  background-color: white;
+  color: red;
+  border-color: rgba(255, 0, 0, 0.776);
+  border-radius: 10%;
+}
+.actionbtnd {
+  margin: 0.8rem 1rem 0.8rem 0;
+  background-color: white;
+  color: blue;
+  border-color: rgba(0, 47, 255, 0.698);
+  border-radius: 10%;
+}
+
+.currentpagebtn {
+  margin: 0% 1%;
+  border-radius: 50%;
+  padding: 0.5rem 0.7rem;
+
+  color: red;
+  background-color: white;
+  border-color: red;
+}
+
+.pagebtns {
+  margin: 0% 1%;
+  background-color: rgba(255, 0, 0, 0.776);
+  border-radius: 50%;
+  padding: 0.5rem 0.7rem;
+  color: aliceblue;
+  border-color: red;
+}
+
+.disablebtn {
+  margin: 0% 1%;
+  border-radius: 50%;
+  padding: 0.5rem 0.7rem;
+  border-color: rgba(0, 0, 0, 0.099);
+  color: rgba(0, 0, 0, 0.326);
+}
+.buttonsrow {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.alldeletebtn {
+  margin-left: 5%;
+  left: 0;
+  background-color: rgba(0, 47, 255, 0.698);
+  color: aliceblue;
+  border-color: rgba(0, 47, 255, 0.698);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.alldelete {
+  display: block;
+  text-align: start;
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+}
+.searchrow {
+  width: 100%;
+}
+.searchbar {
+  width: 75%;
+  margin-top: 2rem !important;
+  margin: 0 5%;
+  padding: 5px 2px;
+}
